@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+body {
+  /* background: #f5f7fa; */
+  font-family: poppins, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* game title  */
+h1 {
+  margin-block: 15px;
+  font-size: 2rem;
+  color: white;
+}
+
+/* game subtitle */
+.subtitle {
+  font-size: 1.1rem;
+  color: wheat;
+  margin-block: 35px 17px;
+  /* border: 2px solid red; */
+}
+
+/* game  box  */
+#game-board {
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 5px;
+  place-content: center;
+  /* border: 2px solid red; */
+}
+
+/* game  single-card box  */
+.card {
+  width: 80px;
+  height: 80px;
+  margin: 5px 0;
+  background: #2d89ef;
+  color: white;
+  border-radius: 10px;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s;
+  border: 2px solid white;
+}
+
+.card.flipped {
+  background: white;
+  color: #333;
+  border: 2px solid #2d89ef;
+}
+
+.card.matched {
+  background: #44c767;
+  border: none;
+  color: white;
+  cursor: default;
+}
+
+#restart-btn {
+  margin-top: 28px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  background: #333;
+  color: #d8db13;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+#restart-btn:hover {
+  color: white;
+  opacity: 80%;
+  border: 0.5px solid black;
+}
+
+/* footer  */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #374151;
+}
+
+.footer-text {
+  color: #d7d7d7;
+  text-align: center;
+}
+
+.footer-author {
+  padding: 0 8px;
+  font-weight: bold;
+  font-style: normal;
+  color: #00adb5;
+}
