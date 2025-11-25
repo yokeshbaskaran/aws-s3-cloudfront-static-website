@@ -30,9 +30,13 @@ Designed to demonstrate front-end logic + AWS deployment.
 2.  Disable Static Website Hosting
 3.  Create a CloudFront Distribution
 4.  (Optional) Add HTTPS + Custom Domain
-5.  Test your website
+5.  Test your website.
 
-## 🎯 Live Demo Example (Placeholder)
+-> Refer to the full documentation for detailed implementation steps.
+
+📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23750611/documentation.pdf)
+
+## 🎯 Live Demo Example:
 
 ```
 https://d15ofsgzywtlqm.cloudfront.net
@@ -40,4 +44,4 @@ https://d15ofsgzywtlqm.cloudfront.net
 
 ## 🖼️ Preview
 
-_(Add screenshots of your game here after uploading)_
+![Image](https://github.com/user-attachments/assets/027c390a-5bc3-485b-ab71-275991b5d3fd)
