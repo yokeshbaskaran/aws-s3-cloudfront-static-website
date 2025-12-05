@@ -1,7 +1,7 @@
 # 🎮 Flip-A-Card Memory Game
 
 A fully static **Memory Card Matching Game** hosted securely using **Amazon S3 + CloudFront**.
-This project delivers a fast, lightweight, globally distributed game website—perfect for learning AWS deployment, CloudFront caching, OAC security, and static hosting best-practices.
+This project delivers a fast, lightweight, globally distributed game website—perfect for learning AWS deployment, CloudFront caching, OAC security, and static hosting best practices.
 
 ## 🚀 Features
 
@@ -14,9 +14,9 @@ This project delivers a fast, lightweight, globally distributed game website—p
 
 ## 🎨 Game Description
 
-Flip-A-Card is a simple memory matching game:
+Flip-A-Card is a simple memory-matching game:
 
-- Cards are placed face-down
+- Cards are placed face down
 - Player flips 2 at a time
 - If they match → they stay revealed
 - If not → cards flip back
@@ -34,7 +34,7 @@ Designed to demonstrate front-end logic + AWS deployment.
 
 -> Refer to the full documentation for detailed implementation steps.
 
-📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23750611/documentation.pdf)
+📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23960205/aws-s3-cloudfront-static-website.pdf)
 
 ## 🎯 Live Demo Example:
 
